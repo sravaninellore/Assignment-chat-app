@@ -5,7 +5,7 @@
 }
 
 .left-column {
-  width: 200px;
+  width: 250px;
   padding: 20px;
   background-color: #fff;
 }
@@ -20,26 +20,73 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  padding: 7px;
 }
 
-.chat-item1 {
+.chat-item-1 {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   background-color: rgb(21, 122, 162);
+  padding: 7px;
+  
 }
+
+.chat-item-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  padding: 7px;
+
+}
+
+.chat-item-3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chat-item-4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+
+.chat-item-5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+
 
 .circle {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  background-color: #00b300;
+  width: 45px;
+  height: 45px;
+  background-color: lightcoral;
   color: #fff;
   border-radius: 50%;
   margin-right: 10px;
 }
+.circle-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  color: grey;
+  border-radius: 60%;
+  border-color: grey;
+  margin-right: 10px;
+}
+
 
 .square {
   width: 30px;
@@ -65,6 +112,12 @@
 .chat-name {
   font-weight: bold;
 }
+
+.chat-name-1 {
+  font-weight: bold;
+  font-size:17px;
+}
+
 
 .chat-name-highlighted {
   font-weight: bold;
@@ -142,7 +195,7 @@
 }
 
 .like-button {
-  background-color: grey;
+  background-color: white;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -150,7 +203,7 @@
 }
 
 .like-button:hover {
-  background-color: grey;
+  background-color: white;
 }
 
 .input-container {
